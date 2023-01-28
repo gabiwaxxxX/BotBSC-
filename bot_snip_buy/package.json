@@ -1,0 +1,26 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tradint-bot.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snipe": "node tradint-bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.1.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.0",
+    "require": "^2.4.20"
+  }
+}
